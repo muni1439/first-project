@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+
+<div class="about-me-container">
+    <div class="main-content animate__animated animate__fadeInUp">
+        <div class="education-section" *ngIf="showEducation">
+            <div id="edu-section" class="edu-section animate__animated animate__fadeInUp">
+                <p style="font-size: 25px;color: blueviolet;">Education Section</p>
+            </div>
+            <p>University Name : Syracuse University</p>
+            <p>Degree : Masters in Computer Engineering</p>
+            <p>Graduation Year : May 2024</p>
+        </div>
+        <div class="project-section" *ngIf="showProjects">
+            <div id="proj-section" class="proj-section animate__animated animate__fadeInUp">
+                <p style="font-size: 25px;color: blueviolet;">Projects Section</p>
+            </div>
+        </div>
+
+        <div class="project-card" *ngFor="let temp of projects">
+
+            <h1>{{temp.name}}</h1>
+            <p>{{temp.description}}</p>
+
+        </div>
+    </div>
+</div>
+
+
+<app-footer></app-footer>

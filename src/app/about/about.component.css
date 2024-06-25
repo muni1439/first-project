@@ -1,0 +1,25 @@
+.about-me-container{
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(174, 201, 201);
+    font-family: "Lobster",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 ,h3{
+  color: blueviolet;
+}
+
+.education-section,.projects-section{
+    margin-top: 30px;
+}
+
+.project-card{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9f9;
+}
