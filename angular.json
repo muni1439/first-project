@@ -15,6 +15,7 @@
           "options": {
             "outputPath": "docs",
             "baseHref": "/first-project/",
+            "deployUrl": "/first-project/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
