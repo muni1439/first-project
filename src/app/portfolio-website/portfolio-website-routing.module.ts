@@ -8,6 +8,7 @@ import { FooterComponent } from '../footer/footer.component';
 import { SkillComponent } from '../skill/skill.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   {path:'navbar',component:NavbarComponent},
   {path:'contact',component:ContactComponent},
   {path:'about',component:AboutComponent},
